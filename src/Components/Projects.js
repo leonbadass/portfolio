@@ -13,7 +13,7 @@ const projects = [
     description: "A personal portfolio website built with React and Tailwind CSS.",
     image: portfolioImage,
     tech: ["React", "TailwindCSS", "Framer Motion"],
-    demoLink: "https://your-portfolio-link.com",
+    demoLink: "https://godwinazukaportfolio.netlify.app/",
     githubLink: "https://github.com/leonbadass/portfolio",
   },
   {
@@ -40,7 +40,7 @@ const Projects = () => {
   return (
     <section id="projects" className="py-20 bg-gray-900 text-white">
       <div className="container mx-auto px-6">
-        {/* Section Title */}
+      
         <motion.h2
           className="text-4xl font-bold text-center"
           initial={{ opacity: 0, y: -20 }}
