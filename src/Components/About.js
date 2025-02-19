@@ -23,9 +23,9 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          I'm a passionate **Frontend Developer** with a love for building beautiful,  
-          responsive, and user-friendly web applications. I have experience with modern  
-          frontend technologies like React, JavaScript, and Tailwind CSS.
+          I am a passionate Frontend Developer and a student of Electronics and Computer Engineering with a strong foundation in JavaScript,
+           HTML, CSS, and React.js. I love building beautiful, responsive, and user-friendly web applications, leveraging modern technologies
+            like Tailwind CSS to create seamless digital experiences.
         </motion.p>
 
         {/* Skills Section */}
