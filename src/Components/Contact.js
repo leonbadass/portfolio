@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: "", email: "", message: "" });
@@ -79,15 +79,13 @@ const Contact = () => {
 
         {/* Social Media Links */}
         <div className="mt-8 flex justify-center gap-6">
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/godwin-azuka-b0176a179/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-blue-400 text-3xl hover:text-blue-500 transition" />
           </a>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/leonbadass" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-gray-400 text-3xl hover:text-gray-500 transition" />
           </a>
-          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-            <FaTwitter className="text-blue-400 text-3xl hover:text-blue-500 transition" />
-          </a>
+        
         </div>
       </div>
     </section>

@@ -1,9 +1,9 @@
 import React from "react";
-import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-6 mt-12">
+    <footer className="bg-gray-800 text-white py-6 mt-0">
       <div className="container mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
         {/* Copyright */}
         <p className="text-center md:text-left text-gray-400">
@@ -20,15 +20,13 @@ const Footer = () => {
 
         {/* Social Media Links */}
         <div className="flex space-x-6 mt-4 md:mt-0">
-          <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/godwin-azuka-b0176a179/" target="_blank" rel="noopener noreferrer">
             <FaLinkedin className="text-blue-400 text-2xl hover:text-blue-500 transition" />
           </a>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/leonbadass" target="_blank" rel="noopener noreferrer">
             <FaGithub className="text-gray-400 text-2xl hover:text-gray-500 transition" />
           </a>
-          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer">
-            <FaTwitter className="text-blue-400 text-2xl hover:text-blue-500 transition" />
-          </a>
+        
         </div>
       </div>
     </footer>

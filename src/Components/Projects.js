@@ -1,6 +1,9 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
+import weatherAppImage from "../Assets/weatherapp.png";
+import portfolioImage from "../Assets/Portfolioapp.png";
+import todoApp from "../Assets/todoapp.png"
 
 // Sample project data
 const projects = [
@@ -8,28 +11,28 @@ const projects = [
     id: 1,
     title: "Portfolio Website",
     description: "A personal portfolio website built with React and Tailwind CSS.",
-    image: "/projects/portfolio.png", // Replace with your project image path
+    image: portfolioImage,
     tech: ["React", "TailwindCSS", "Framer Motion"],
     demoLink: "https://your-portfolio-link.com",
-    githubLink: "https://github.com/yourusername/portfolio",
+    githubLink: "https://github.com/leonbadass/portfolio",
   },
   {
     id: 2,
-    title: "E-commerce Store",
-    description: "A modern e-commerce web app with a shopping cart and checkout.",
-    image: "/projects/ecommerce.png",
-    tech: ["React", "Redux", "Firebase"],
-    demoLink: "https://your-ecommerce-link.com",
-    githubLink: "https://github.com/yourusername/ecommerce-store",
+    title: "Todo App",
+    description: "A basic todo list App",
+    image: todoApp,
+    tech: ["React", "Node.js"],
+    demoLink: "https://todolistappbygodwin.netlify.app/",
+    githubLink: "https://github.com/leonbadass/TodoApp",
   },
   {
     id: 3,
     title: "Weather App",
     description: "A weather forecast app using OpenWeather API.",
-    image: "/projects/weather.png",
+    image: weatherAppImage,
     tech: ["React", "API", "Styled Components"],
-    demoLink: "https://your-weather-app.com",
-    githubLink: "https://github.com/yourusername/weather-app",
+    demoLink: "https://theweatherrevealapp.netlify.app/",
+    githubLink: "https://github.com/leonbadass/Weather_Reveal",
   },
 ];
 
