@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import weatherAppImage from "../Assets/weatherapp.png";
 import portfolioImage from "../Assets/Portfolioapp.png";
-import todoApp from "../Assets/todoapp.png"
+import createexecutedelete from "../Assets/todoapp.png"
 
 // Sample project data
 const projects = [
@@ -20,7 +20,7 @@ const projects = [
     id: 2,
     title: "Todo App",
     description: "A basic todo list App",
-    image: todoApp,
+    image: createexecutedelete,
     tech: ["React", "Node.js"],
     demoLink: "https://createexcutedelete.netlify.app/",
     githubLink: "https://github.com/leonbadass/TodoApp",
