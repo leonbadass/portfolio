@@ -22,7 +22,7 @@ const projects = [
     description: "A basic todo list App",
     image: todoApp,
     tech: ["React", "Node.js"],
-    demoLink: "https://todolistappbygodwin.netlify.app/",
+    demoLink: "https://createexcutedelete.netlify.app/",
     githubLink: "https://github.com/leonbadass/TodoApp",
   },
   {
