@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
 import weatherAppImage from "../Assets/weatherapp.png";
 import portfolioImage from "../Assets/Portfolioapp.png";
-import createexecutedelete from "../Assets/todoapp.png"
+import createexecutedelete from "../Assets/createexecutedelete.png"
 
 // Sample project data
 const projects = [
