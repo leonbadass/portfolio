@@ -5,7 +5,7 @@ import Hero from "./Components/Hero";
 import Projects from "./Components/Projects";
 import Footer from "./Components/Footer";
 import Contact from "./Components/Contact"
-import TechnicalSkills from "./TechnicalSkills"
+import TechnicalSkills from "./Components/TechnicalSkills"
 
 
 function App() {
