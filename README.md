@@ -21,7 +21,7 @@ A personal portfolio website built with **React** and **TailwindCSS**, designed 
 
 ## 🖼 Preview
 
-![Portfolio Screenshot](./public/preview.png)
+![Portfolio Screenshot](./src/Assets/Portfolioapp.png)
 
 ---
 
