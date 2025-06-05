@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaNodeJs } from "react-icons/fa";
+import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaNodeJs,Fa } from "react-icons/fa";
 
 const About = () => {
   return (
@@ -25,7 +25,7 @@ const About = () => {
         >
           I am a passionate Frontend Developer and a student of Electronics and Computer Engineering with a strong foundation in JavaScript,
            HTML, CSS, and React.js. I love building beautiful, responsive, and user-friendly web applications, leveraging modern technologies
-            like Tailwind CSS to create seamless digital experiences.
+            like Tailwind CSS, Typescript and Vite to create seamless digital experiences.
         </motion.p>
 
         {/* Skills Section */}
