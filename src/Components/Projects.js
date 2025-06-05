@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { FaExternalLinkAlt, FaGithub } from "react-icons/fa";
-import weatherAppImage from "../Assets/weatherapp.png";
+import Weatherpreview from "../Assets/Weatherpreview.png"
 import portfolioImage from "../Assets/Portfolioapp.png";
 import createexecutedelete from "../Assets/createexecutedelete.png"
 
@@ -29,7 +29,7 @@ const projects = [
     id: 3,
     title: "Weather App",
     description: "A weather forecast app using OpenWeather API.",
-    image: weatherAppImage,
+    image: Weatherpreview,
     tech: ["Vite+React", "API", "Typescript","Tailwind Css"],
     demoLink: "https://my-weather-reveal-app.netlify.app/",
     githubLink: "https://github.com/leonbadass/Weather_Reveal",
