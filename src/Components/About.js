@@ -23,9 +23,9 @@ const About = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, delay: 0.3 }}
         >
-          I am a passionate Frontend Developer and a student of Electronics and Computer Engineering with a strong foundation in JavaScript,
-           HTML, CSS, and React.js. I love building beautiful, responsive, and user-friendly web applications, leveraging modern technologies
-            like Tailwind CSS, Typescript and Vite to create seamless digital experiences.
+         I’m a Full-Stack Developer and Electronics & Computer Engineering student focused on building scalable, production-ready web applications.
+        I specialize in Next.js, React, and TypeScript, with hands-on experience integrating Supabase (PostgreSQL, Authentication, and Storage with RLS) for secure, real-world systems.
+        I’m passionate about crafting responsive, mobile-first interfaces and designing clean, maintainable architectures that balance performance, security, and user experience.
         </motion.p>
 
         {/* Skills Section */}
