@@ -38,7 +38,7 @@ const Hero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        A Frontend Developer passionate about building beautiful & user-friendly web experiences.
+       Full-Stack Developer crafting scalable, secure & user-focused web applications.
       </motion.p>
        {/* Call to Action Buttons */}
        <motion.div
