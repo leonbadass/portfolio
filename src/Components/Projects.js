@@ -9,6 +9,14 @@ import createexecutedelete from "../Assets/createexecutedelete.png"
 const projects = [
   {
     id: 1,
+    title: "CodingCTRL",
+    description: "A custom tech blog content management system.",
+    image: codingCTRL,
+    tech: ["Nextjs+React", "Supabase", "Typescript","Tailwind CSS", "Vitest"],
+    demoLink: "https://codingctrl.com/",
+    githubLink: "https://github.com/leonbadass/nextjs-tech-blog-cms",
+  },
+    id: 2,
     title: "Portfolio Website",
     description: "A personal portfolio website built with React and Tailwind CSS.",
     image: portfolioImage,
@@ -17,7 +25,7 @@ const projects = [
     githubLink: "https://github.com/leonbadass/portfolio",
   },
   {
-    id: 2,
+    id: 3,
     title: "Todo App",
     description: "A basic todo list App",
     image: createexecutedelete,
@@ -26,7 +34,7 @@ const projects = [
     githubLink: "https://github.com/leonbadass/TodoApp",
   },
   {
-    id: 3,
+    id: 4,
     title: "Weather App",
     description: "A weather forecast app using OpenWeather API.",
     image: Weatherpreview,
@@ -34,6 +42,7 @@ const projects = [
     demoLink: "https://my-weather-reveal-app.netlify.app/",
     githubLink: "https://github.com/leonbadass/Weather_Reveal",
   },
+  
 ];
 
 const Projects = () => {
