@@ -1,6 +1,13 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaNodeJs,Fa } from "react-icons/fa";
+import {
+  FaReact,
+  FaHtml5,
+  FaCss3Alt,
+  FaJs,
+  FaGitAlt,
+  FaNodeJs,
+} from "react-icons/fa";
 
 const About = () => {
   return (
@@ -11,8 +18,7 @@ const About = () => {
           className="text-4xl font-bold text-center"
           initial={{ opacity: 0, y: -20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 1 }}
-        >
+          transition={{ duration: 1 }}>
           About Me
         </motion.h2>
 
@@ -21,11 +27,15 @@ const About = () => {
           className="text-lg text-gray-300 text-center max-w-3xl mx-auto mt-4"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.3 }}
-        >
-         I’m a Full-Stack Developer and Electronics & Computer Engineering student focused on building scalable, production-ready web applications.
-        I specialize in Next.js, React, and TypeScript, with hands-on experience integrating Supabase (PostgreSQL, Authentication, and Storage with RLS) for secure, real-world systems.
-        I’m passionate about crafting responsive, mobile-first interfaces and designing clean, maintainable architectures that balance performance, security, and user experience.
+          transition={{ duration: 1, delay: 0.3 }}>
+          I’m a Full-Stack Developer and Electronics & Computer Engineering
+          student focused on building scalable, production-ready web
+          applications. I specialize in Next.js, React, and TypeScript, with
+          hands-on experience integrating Supabase (PostgreSQL, Authentication,
+          and Storage with RLS) for secure, real-world systems. I’m passionate
+          about crafting responsive, mobile-first interfaces and designing
+          clean, maintainable architectures that balance performance, security,
+          and user experience.
         </motion.p>
 
         {/* Skills Section */}
@@ -33,8 +43,7 @@ const About = () => {
           className="flex flex-wrap justify-center gap-8 mt-8"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 0.6 }}
-        >
+          transition={{ duration: 1, delay: 0.6 }}>
           <div className="flex flex-col items-center">
             <FaHtml5 className="text-orange-500 text-5xl" />
             <p className="mt-2">HTML5</p>
