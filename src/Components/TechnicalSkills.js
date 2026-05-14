@@ -1,15 +1,19 @@
 function TechnicalSkills() {
   const projects = {
+    codingCtrl: {
+      title: "💻 CodingCtrl.Readme",
+      link : "https://github.com/leonbadass/nextjs-tech-blog-cms/blob/master/README.md",
+    },
     todo: {
-      title: "📝 To-Do App Technical Specification",
+      title: "📝 To-Do App.Readme",
       link: "https://github.com/leonbadass/my-todo-app/blob/main/README.md",
     },
     portfolio: {
-      title: "💼 Personal Portfolio Technical Specification",
+      title: "💼 Personal Portfolio.Readme",
       link: "https://github.com/leonbadass/portfolio/blob/main/README.md",
     },
     weather: {
-      title: "🌤️ Weather App Technical Specification",
+      title: "🌤️ Weather App.Readme",
       link: "https://github.com/leonbadass/Weather_Reveal/blob/main/README.md",
     },
   };
