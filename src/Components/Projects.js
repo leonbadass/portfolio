@@ -16,6 +16,7 @@ const projects = [
     demoLink: "https://codingctrl.com/",
     githubLink: "https://github.com/leonbadass/nextjs-tech-blog-cms",
   },
+  {
     id: 2,
     title: "Portfolio Website",
     description: "A personal portfolio website built with React and Tailwind CSS.",
